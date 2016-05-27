@@ -1,7 +1,7 @@
 {
   "name": "yamQuery-excelAnalizer",
-  "version": "1.0.3",
-  "description": "Devuelve un objeto con información procesada de archivos de Excel con formatos xls, xlsx y csv.",
+  "version": "1.0.4",
+  "description": "Permite analizar y procesar grandes volumentes de información de archivos xls, xlsx y csv, mediante archivos de configuración JSON",
   "main": "index.js",
   "scripts": {
     "test": "mocha"

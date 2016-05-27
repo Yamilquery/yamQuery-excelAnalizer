@@ -1,7 +1,6 @@
 # YamilQuery-ExcelAnalizer
 
-Devuelve un objeto con información procesada de archivos de Excel con formatos xls, xlsx y csv.
-El procesamiento se hace con base en archivos de configuración.
+Permite analizar y procesar grandes volumentes de información de archivos xls, xlsx y csv, mediante archivos de configuración JSON.
 
 + Este analizador permite lo siguiente.
   - Leer ficheros xls, xslx y csv
@@ -9,7 +8,7 @@ El procesamiento se hace con base en archivos de configuración.
   - Aplicar filtros a los datos obtenidos y almacenar el resultado en un objeto
 
 ### Versión
-1.0.3
+1.0.4
 
 ### Requerimientos
 
