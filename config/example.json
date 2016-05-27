@@ -1,0 +1,36 @@
+{
+	"file": "./test/xlsx/example.xlsx",
+	"resource_name": "THESIS",
+	"sheet_name": "usageReport (14)",
+	"conditions": [{
+		"column": 0,
+		"alias": "institucion",
+		"where": {
+			"contains": "Account "
+		}
+	}],
+	"results": [{
+		"alias": "id_institution",
+		"column": 0,
+		"regex": "\\d+"
+	}, {
+		"alias": "institution",
+		"column": 0
+	}, {
+		"alias": "jan-2016",
+		"column": 10,
+		"relative": 2
+	}, {
+		"alias": "feb-2016",
+		"column": 11,
+		"relative": 2
+	}, {
+		"alias": "mar-2016",
+		"column": 12,
+		"relative": 2
+	}, {
+		"alias": "abr-2016",
+		"column": 13,
+		"relative": 2
+	}]
+}

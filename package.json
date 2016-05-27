@@ -1,0 +1,26 @@
+{
+  "name": "yamQuery-excelAnalizer",
+  "version": "1.0.3",
+  "description": "Devuelve un objeto con información procesada de archivos de Excel con formatos xls, xlsx y csv.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "transform",
+    "analize",
+    "standar",
+    "recursos",
+    "científicos"
+  ],
+  "author": "Yamil Díaz Aguirre <yamilquery@gmail.com> (http://yamil.ml)",
+  "license": "MIT",
+  "dependencies": {
+    "yamQuery-excel": "^1.0.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "co-mocha": "^1.1.2",
+    "mocha": "^2.5.3"
+  }
+}

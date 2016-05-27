@@ -1,0 +1,532 @@
+REGIÓN,ESTADO,NOMBRE COMPLETO,NOMBRE NORMALIZADO,SHORNAME
+,,Universidades y Centros de Investigación Públicos Federales,,
+Metropolitana,Distrito Federal,Centro de Investigación y de Estudios Avanzados del Instituto Politécnico Nacional,Centro de Investigacion y de Estudios Avanzados del IPN,cinvestav
+Metropolitana,Distrito Federal,Instituto Politécnico Nacional,Instituto Politecnico Nacional,ipn
+Noreste,Coahuila,Universidad Autónoma Agraria Antonio Narro,Universidad Autonoma Agraria Antonio Narro,uaaan
+Metropolitana,Distrito Federal,Universidad Autónoma Metropolitana,Universidad Autonoma Metropolitana,uam
+Metropolitana,Distrito Federal,Universidad Nacional Autónoma de México,Universidad Nacional Autonoma de Mexico,unam
+Metropolitana,Distrito Federal,Universidad Pedagógica Nacional,Universidad Pedagogica Nacional,upn
+,,Centros Públicos de Investigación,,
+Centro Sur,Querétaro,Centro de Ingeniería y Desarrollo Industrial,Centro de Ingenieria y Desarrollo Industrial,cidesi
+Centro Occidente,Guanajuato,"Centro de Innovación Aplicada en Tecnologías Competitivas, A.C.","Centro de Innovacion Aplicada en Tecnologias Competitivas, A.C",ciatec
+Sur Sureste,Yucatán,"Centro de Investigación Científica de Yucatán, A.C.","Centro de Investigacion Cientifica de Yucatan, A.C",cicy
+Noroeste,Baja California,"Centro de Investigación Científica y de Educación Superior de Ensenada, B.C.","Centro de Investig Cientifica y de Educacion Superior de Ensenada, B.C",cicese
+Noroeste,Sonora,"Centro de Investigación en Alimentación y Desarrollo, A.C.","Centro de Investigacion en Alimentacion y Desarrollo, A.C",ciad
+Metropolitana,Distrito Federal,"Centro de Investigación en Geografía y Geomática ""Ing. Jorge L. Tamayo"", A.C.","Centro de Investig en Geografia y Geomatica Ing. Jorge L. Tamayo, A.C",cigget
+Centro Occidente,Guanajuato,"Centro de Investigación en Matemáticas, A.C.","Centro de Investigacion en Matematicas, A.C",cimat
+Noroeste,Chihuahua,"Centro de Investigación en Materiales Avanzados, S.C.","Centro de Investigacion en Materiales Avanzados, S.C",cimav
+Centro Occidente,Guanajuato,"Centro de Investigaciones en Óptica, A.C.","Centro de Investigaciones en Optica, A.C",cio
+Noreste,Coahuila,Centro de Investigación en Química Aplicada,Centro de Investigacion en Quimica Aplicada,ciqa
+Centro Occidente,Jalisco,"Centro de Investigación y Asistencia en Tecnología y Diseño del Estado de Jalisco, A.C.","Centro de Investig y Asistencia en Tecnol y Diseno del Edo de Jal, A.C",ciatej
+Centro Sur,Querétaro,"Centro de Investigación y Desarrollo Tecnológico en Electroquímica, S.C.","Centro de Investig y Desarrollo Tecnologico en Electroquimica, S.C",cideteq
+Metropolitana,Distrito Federal,"Centro de Investigación y Docencia Económicas, A.C.","Centro de Investigacion y Docencia Economicas, A.C",cide
+Noroeste,Baja California Sur,"Centro de Investigaciones Biológicas del Noroeste, S.C.","Centro de Investigaciones Biologicas del Noroeste, S.C",cibnor
+Metropolitana,Distrito Federal,Centro de Investigaciones y Estudios Superiores en Antropología Social,Centro de Investigaciones y Estudios Superiores en Antropologia Social,ciesas
+Centro Sur,Querétaro,"Centro de Tecnología Avanzada, A.C.","Centro de Tecnologia Avanzada, A.C",ciateq
+Noreste,Coahuila,"Corporación Mexicana de Investigación en Materiales, S.A. de C.V.","Corporacion Mexicana de Investigacion en Materiales, S.A. de C.V",comimsa
+Noroeste,Baja California,"El Colegio de la Frontera Norte, A.C.","El Colegio de la Frontera Norte, A.C",colef
+Sur Sureste,Chiapas,El Colegio de la Frontera Sur,El Colegio de la Frontera Sur,ecosur
+Metropolitana,Distrito Federal,"El Colegio de México, A.C.","El Colegio de Mexico, A.C",colmex
+Centro Occidente,Michoacán,"El Colegio de Michoacán, A.C.","El Colegio de Michoacan, A.C",colmich
+Noreste,San Luis Potosí,"El Colegio de San Luis, A.C.","El Colegio de San Luis, A.C",colsan
+Metropolitana,Distrito Federal,Facultad Latinoamericana de Ciencias Sociales,Facultad Latinoamericana de Ciencias Sociales,flacso
+Metropolitana,Distrito Federal,Centro de Investigación e Innovación en Tecnologías de la Información y Comunicación (Fondo de Informacion y Documentacion para la Industria),Centro de Investig e Innov en Tecnol de la Informacion y Comunicacion,infotec
+Metropolitana,Distrito Federal,Fondo para el Desarrollo de Recursos Humanos,Fondo para el Desarrollo de Recursos Humanos,fiderh
+Sur Sureste,Veracruz,"Instituto de Ecología, A.C.","Instituto de Ecologia, A.C",inecol
+Metropolitana,Distrito Federal,Instituto de Investigaciones Dr. José María Luis Mora,Instituto de Investigaciones Dr. Jose Maria Luis Mora,mora
+Centro Sur,Puebla,"Instituto Nacional de Astrofísica, Óptica y Electrónica","Instituto Nacional de Astrofisica, Optica y Electronica",inaoe
+Noreste,San Luis Potosí,"Instituto Potosino de Investigación Científica y Tecnológica, A.C.","Instituto Potosino de Investigacion Cientifica y Tecnologica, A.C",ipicyt
+,,Instituciones Sectorizadas,,
+Metropolitana,Distrito Federal,Centro de Estudios Superiores Navales,Centro de Estudios Superiores Navales,cesnav
+Centro Sur,Estado de México,Colegio de Postgraduados,Colegio de Postgraduados,colpos
+Centro Sur,Morelos,Instituto de Investigaciones Eléctricas,Instituto de Investigaciones Electricas,iie
+Centro Sur,Morelos,Instituto Mexicano de Tecnología del Agua,Instituto Mexicano de Tecnologia del Agua,imta
+Metropolitana,Distrito Federal,Instituto Mexicano del Petróleo,Instituto Mexicano del Petroleo,imp
+Metropolitana,Distrito Federal,Instituto Nacional de Ecología y Cambio Climático,Instituto Nacional de Ecologia y Cambio Climatico,inecc
+Centro Sur,Estado de México,Instituto Nacional de Investigaciones Nucleares,Instituto Nacional de Investigaciones Nucleares,inin
+Centro Sur,Estado de México,Universidad Autónoma Chapingo,Universidad Autonoma Chapingo,chapingo
+,,Institutos Nacionales de Salud y Hospitales de Alta Especialidad,,
+Sur Sureste,Chiapas,Centro Regional de Alta Especialidad de Chiapas,Centro Regional de Alta Especialidad de Chiapas,craech
+Metropolitana,Distrito Federal,Comisión Coordinadora de Institutos Nacionales de Salud y Hospitales de Alta Especialidad,Comision Coord de Inst Nacionales de Salud y Hsp de Alta Especialidad,ccinshae
+Metropolitana,Distrito Federal,Dirección General de Políticas de Investigación en Salud,Direccion General de Politicas de Investigacion en Salud,dgpis
+Metropolitana,Distrito Federal,Hospital General de México Eduardo Liceaga,Hospital General de Mexico Eduardo Liceaga,hgm
+Metropolitana,Distrito Federal,Hospital General Dr. Manuel Gea González,Hospital General Dr. Manuel Gea Gonzalez,hgmgg
+Metropolitana,Distrito Federal,Hospital General Juárez de México,Hospital General Juarez de Mexico,hjm
+Metropolitana,Distrito Federal,Hospital Infantil de México Federico Gómez,Hospital Infantil de Mexico Federico Gomez,him
+Noreste,Tamaulipas,Hospital Regional de Alta Especialidad Bicentenario Ciudad Victoria,Hospital Regional de Alta Especialidad Bicentenario Ciudad Victoria,hraecv
+Sur Sureste,Yucatán,Hospital Regional de Alta Especialidad de la Península de Yucatán,Hospital Regional de Alta Especialidad de la Peninsula de Yucatan,harey
+Sur Sureste,Oaxaca,Hospital Regional de Alta Especialidad de Oaxaca,Hospital Regional de Alta Especialidad de Oaxaca,hraeo
+Centro Occidente,Guanajuato,Hospital Regional de Alta Especialidad del Bajío,Hospital Regional de Alta Especialidad del Bajio,hraeb
+Centro Sur,Estado de México,Hospital Regional de Alta Especialidad Ixtapaluca,Hospital Regional de Alta Especialidad Ixtapaluca,hraei
+Metropolitana,Distrito Federal,Instituto Nacional de Cancerología,Instituto Nacional de Cancerologia,incan
+Metropolitana,Distrito Federal,Instituto Nacional de Cardiología Ignacio Chávez,Instituto Nacional de Cardiologia Ignacio Chavez,incar
+Metropolitana,Distrito Federal,Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirán,Instituto Nacional de Ciencias Medicas y Nutricion Salvador Zubiran,incmn
+Metropolitana,Distrito Federal,Instituto Nacional de Enfermedades Respiratorias Ismael Cosío Villegas,Instituto Nacional de Enfermedades Respiratorias Ismael Cosio Villegas,iner
+Metropolitana,Distrito Federal,Instituto Nacional de Geriatría,Instituto Nacional de Geriatria,inger
+Metropolitana,Distrito Federal,Instituto Nacional de Medicina Genómica,Instituto Nacional de Medicina Genomica,inmegen
+Metropolitana,Distrito Federal,Instituto Nacional de Neurología y Neurocirugía Manuel Velasco Suarez,Instituto Nacional de Neurologia y Neurocirugia Manuel Velasco Suarez,innn
+Metropolitana,Distrito Federal,Instituto Nacional de Pediatría,Instituto Nacional de Pediatria,inp
+Metropolitana,Distrito Federal,Instituto Nacional de Perinatología Isidro Espinosa de Los Reyes,Instituto Nacional de Perinatologia Isidro Espinosa de Los Reyes,inper
+Metropolitana,Distrito Federal,Instituto Nacional de Psiquiatría Ramón de la Fuente Muñiz,Instituto Nacional de Psiquiatria Ramon de la Fuente Muniz,inpsiq
+Metropolitana,Distrito Federal,Instituto Nacional de Rehabilitación,Instituto Nacional de Rehabilitacion,inr
+Centro Sur,Morelos,Instituto Nacional de Salud Pública,Instituto Nacional de Salud Publica,insp
+Metropolitana,Distrito Federal,Servicios de Atención Psiquiátrica,Servicios de Atencion Psiquiatrica,sap
+,,Instituciones del Sector Salud,,
+Metropolitana,Distrito Federal,Centro Nacional de Transfusión Sanguínea,Centro Nacional de Transfusion Sanguinea,cnts
+Metropolitana,Distrito Federal,Centro Nacional de Trasplantes,Centro Nacional de Trasplantes,cenatra
+Metropolitana,Distrito Federal,Comisión Nacional de Bioética,Comision Nacional de Bioetica,conbioetica
+Centro Sur,Estado de México,Hospital Regional de Alta Especialidad de Zumpango,Hospital Regional de Alta Especialidad de Zumpango,hraez
+Metropolitana,Distrito Federal,Instituto Mexicano del Seguro Social,Instituto Mexicano del Seguro Social,imss
+,,Universidades Públicas Estatales,,
+Centro Sur,Puebla,Benemérita Universidad Autónoma de Puebla,Benemerita Universidad Autonoma de Puebla,buap
+Noroeste,Sonora,Instituto Tecnológico de Sonora,Instituto Tecnologico de Sonora,itson
+Sur Sureste,Oaxaca,Universidad Autónoma Benito Juárez de Oaxaca,Universidad Autonoma Benito Juarez de Oaxaca,uabjo
+Centro Occidente,Aguascalientes,Universidad Autónoma de Aguascalientes,Universidad Autonoma de Aguascalientes,uaa
+Noroeste,Baja California,Universidad Autónoma de Baja California,Universidad Autonoma de Baja California,uabc
+Noroeste,Baja California Sur,Universidad Autónoma de Baja California Sur,Universidad Autonoma de Baja California Sur,uabcs
+Sur Sureste,Campeche,Universidad Autónoma de Campeche,Universidad Autonoma de Campeche,uac
+Sur Sureste,Chiapas,Universidad Autónoma de Chiapas,Universidad Autonoma de Chiapas,unach
+Noroeste,Chihuahua,Universidad Autónoma de Chihuahua,Universidad Autonoma de Chihuahua,uach
+Noroeste,Chihuahua,Universidad Autónoma de Ciudad Juárez,Universidad Autonoma de Ciudad Juarez,uacj
+Noreste,Coahuila,Universidad Autónoma de Coahuila,Universidad Autonoma de Coahuila,uadec
+Centro Sur,Guerrero,Universidad Autónoma de Guerrero,Universidad Autonoma de Guerrero,uagro
+Centro Occidente,Nayarit,Universidad Autónoma de Nayarit,Universidad Autonoma de Nayarit,uan
+Noreste,Nuevo León,Universidad Autónoma de Nuevo León,Universidad Autonoma de Nuevo Leon,uanl
+Centro Sur,Querétaro,Universidad Autónoma de Querétaro,Universidad Autonoma de Queretaro,uaq
+Noreste,San Luis Potosí,Universidad Autónoma de San Luis Potosí,Universidad Autonoma de San Luis Potosi,uaslp
+Noroeste,Sinaloa,Universidad Autónoma de Sinaloa,Universidad Autonoma de Sinaloa,uas
+Noreste,Tamaulipas,Universidad Autónoma de Tamaulipas,Universidad Autonoma de Tamaulipas,uat
+Centro Sur,Tlaxcala,Universidad Autónoma de Tlaxcala,Universidad Autonoma de Tlaxcala,uatx
+Sur Sureste,Yucatán,Universidad Autónoma de Yucatán,Universidad Autonoma de Yucatan,uady
+Noreste,Zacatecas,Universidad Autónoma de Zacatecas,Universidad Autonoma de Zacatecas,uaz
+Sur Sureste,Campeche,Universidad Autónoma del Carmen,Universidad Autonoma del Carmen,unacar
+Centro Sur,Hidalgo,Universidad Autónoma del Estado de Hidalgo,Universidad Autonoma del Estado de Hidalgo,uaeh
+Centro Sur,Estado de México,Universidad Autónoma del Estado de México,Universidad Autonoma del Estado de Mexico,uaemex
+Centro Sur,Morelos,Universidad Autónoma del Estado de Morelos,Universidad Autonoma del Estado de Morelos,uaem
+Centro Occidente,Colima,Universidad de Colima,Universidad de Colima,ucol
+Centro Occidente,Jalisco,Universidad de Guadalajara,Universidad de Guadalajara,udg
+Centro Occidente,Guanajuato,Universidad de Guanajuato,Universidad de Guanajuato,ug
+Sur Sureste,Quintana Roo,Universidad de Quintana Roo,Universidad de Quintana Roo,uqroo
+Noroeste,Sonora,Universidad de Sonora,Universidad de Sonora,unison
+Sur Sureste,Tabasco,Universidad Juárez Autónoma de Tabasco,Universidad Juarez Autonoma de Tabasco,ujat
+Noreste,Durango,Universidad Juárez del Estado de Durango,Universidad Juarez del Estado de Durango,ujed
+Centro Occidente,Michoacán,Universidad Michoacana de San Nicolás de Hidalgo,Universidad Michoacana de San Nicolas de Hidalgo,umich
+Sur Sureste,Veracruz,Universidad Veracruzana,Universidad Veracruzana,uv
+,,Universidades Públicas Estatales de Apoyo Solidario,,
+Noroeste,Chihuahua,Colegio de Chihuahua,Colegio de Chihuahua,colech
+Sur Sureste,Campeche,Instituto Campechano,Instituto Campechano,ic
+Sur Sureste,Chiapas,Universidad de Ciencias y Artes de Chiapas,Universidad de Ciencias y Artes de Chiapas,unicach
+Sur Sureste,Oaxaca,Universidad de la Cañada (Oaxaca),Universidad de la Canada,unca
+Centro Occidente,Michoacán,Universidad de la Ciénega del Estado de Michoacán de Ocampo,Universidad de la Cienega del Estado de Michoacan de Ocampo,ucm
+Noroeste,Sonora,Universidad de la Sierra (Sonora),Universidad de la Sierra,unisierra
+Sur Sureste,Oaxaca,Universidad de la Sierra Juárez (Oaxaca),Universidad de la Sierra Juarez,unsij
+Sur Sureste,Oaxaca,Universidad de la Sierra Sur (Oaxaca),Universidad de la Sierra Sur,unsis
+Noroeste,Sinaloa,Universidad de Occidente (Sinaloa),Universidad de Occidente,udeo
+Sur Sureste,Yucatán,Universidad de Oriente (Yucatán),Universidad de Oriente,uno
+Sur Sureste,Quintana Roo,Universidad del Caribe (Quintana Roo),Universidad del Caribe,unicaribe
+Sur Sureste,Oaxaca,Universidad del Istmo (Oaxaca),Universidad del Istmo,unistmo
+Sur Sureste,Oaxaca,Universidad del Mar (Oaxaca),Universidad del Mar,umar
+Sur Sureste,Oaxaca,Universidad del Papaloapan (Oaxaca),Universidad del Papaloapan,unpa
+Noroeste,Sonora,Universidad Estatal de Sonora,Universidad Estatal de Sonora,ues
+Centro Sur,Estado de México,Universidad Estatal del Valle de Ecatepec,Universidad Estatal del Valle de Ecatepec,uneve
+Centro Sur,Estado de México,Universidad Estatal del Valle de Toluca,Universidad Estatal del Valle de Toluca,unevt
+Centro Sur,Estado de México,Universidad Mexiquense del Bicentenario,Universidad Mexiquense del Bicentenario,umb
+Sur Sureste,Tabasco,Universidad Popular de la Chontalpa,Universidad Popular de la Chontalpa,upch
+Sur Sureste,Oaxaca,Universidad Tecnológica de la Mixteca,Universidad Tecnologica de la Mixteca,utm
+,,Universidades Politécnicas,,
+Centro Occidente,Guanajuato,Universidad Politécnica Bicentenario (Silao),Universidad Politecnica Bicentenario,upb
+Centro Occidente,Aguascalientes,Universidad Politécnica de Aguascalientes,Universidad Politecnica de Aguascalientes,upa
+Noreste,Tamaulipas,Universidad Politécnica de Altamira,Universidad Politecnica de Altamira,upalt
+Centro Sur,Puebla,Universidad Politécnica de Amozoc,Universidad Politecnica de Amozoc,upam
+Noreste,Nuevo León,Universidad Politécnica de Apodaca,Universidad Politecnica de Apodaca,upap
+Noroeste,Baja California,Universidad Politécnica de Baja California,Universidad Politecnica de Baja California,upbc
+Sur Sureste,Tabasco,Universidad Politécnica de Centro,Universidad Politecnica de Centro,upc
+Sur Sureste,Chiapas,Universidad Politécnica de Chiapas,Universidad Politecnica de Chiapas,upchiapas
+Noroeste,Chihuahua,Universidad Politécnica de Chihuahua,Universidad Politecnica de Chihuahua,upchihuahua
+Noreste,Durango,Universidad Politécnica de Durango,Universidad Politecnica de Durango,unipolidgo
+Noreste,Durango,Universidad Politécnica de Gómez Palacio,Universidad Politecnica de Gomez Palacio,upgp
+Centro Occidente,Guanajuato,Universidad Politécnica de Guanajuato,Universidad Politecnica de Guanajuato,upg
+Sur Sureste,Veracruz,Universidad Politécnica de Huatusco,Universidad Politecnica de Huatusco,uph
+Centro Occidente,Guanajuato,Universidad Politécnica de Juventino Rosas,Universidad Politecnica de Juventino Rosas,upjr
+Centro Occidente,Jalisco,Universidad Politécnica de la Zona Metropolitana de Guadalajara,Universidad Politecnica de la Zona Metropolitana de Guadalajara,upzmg
+Centro Sur,Hidalgo,Universidad Politécnica de Pachuca,Universidad Politecnica de Pachuca,upp
+Centro Occidente,Guanajuato,Universidad Politécnica de Pénjamo,Universidad Politecnica de Penjamo,uppenjamo
+Centro Sur,Puebla,Universidad Politécnica de Puebla,Universidad Politecnica de Puebla,uppuebla
+Centro Sur,Querétaro,Universidad Politécnica de Querétaro,Universidad Politecnica de Queretaro,upq
+Sur Sureste,Quintana Roo,Universidad Politécnica de Quintana Roo,Universidad Politecnica de Quintana Roo,upqroo
+Noreste,San Luis Potosí,Universidad Politécnica de San Luis Potosí,Universidad Politecnica de San Luis Potosi,upslp
+Noroeste,Sinaloa,Universidad Politécnica de Sinaloa,Universidad Politecnica de Sinaloa,upsin
+Centro Sur,Estado de México,Universidad Politécnica de Tecámac,Universidad Politecnica de Tecamac,uptecamac
+Centro Sur,Tlaxcala,Universidad Politécnica de Tlaxcala,Universidad Politecnica de Tlaxcala,uptlax
+Centro Sur,Hidalgo,Universidad Politécnica de Tulancingo,Universidad Politecnica de Tulancingo,upt
+Noreste,Tamaulipas,Universidad Politécnica de Victoria,Universidad Politecnica de Victoria,upvictoria
+Noreste,Zacatecas,Universidad Politécnica de Zacatecas,Universidad Politecnica de Zacatecas,upz
+Centro Sur,Guerrero,Universidad Politécnica del Estado de Guerrero,Universidad Politecnica del Estado de Guerrero,upeg
+Centro Sur,Morelos,Universidad Politécnica del Estado de Morelos,Universidad Politecnica del Estado de Morelos,upemor
+Sur Sureste,Tabasco,Universidad Politécnica del Golfo de México,Universidad Politecnica del Golfo de Mexico,upgm
+Noreste,Zacatecas,Universidad Politécnica del Sur de Zacatecas,Universidad Politecnica del Sur de Zacatecas,upsz
+Centro Sur,Estado de México,Universidad Politécnica del Valle de México,Universidad Politecnica del Valle de Mexico,upvm
+Centro Sur,Estado de México,Universidad Politécnica del Valle de Toluca,Universidad Politecnica del Valle de Toluca,upvt
+Sur Sureste,Tabasco,Universidad Politécnica Mesoamericana,Universidad Politecnica Mesoamericana,upm
+Centro Sur,Hidalgo,Universidad Politécnica Metropolitana de Hidalgo,Universidad Politecnica Metropolitana de Hidalgo,upmetropolitana
+Noreste,Tamaulipas,Universidad Politécnica de la Región Ribereña,Universidad Politecnica de la Region Riberena,uprr
+,,Universidades Tecnológicas,,
+Centro Sur,Querétaro,Universidad Nacional Aeronáutica de Querétaro,Universidad Nacional Aeronautica de Queretaro,unaq
+Centro Occidente,Nayarit,Universidad Tecnológica Bahía de Banderas,Universidad Tecnologica Bahia de Banderas,utbb
+Centro Occidente,Aguascalientes,Universidad Tecnológica de Aguascalientes,Universidad Tecnologica de Aguascalientes,utags
+Noreste,Tamaulipas,Universidad Tecnológica de Altamira,Universidad Tecnologica de Altamira,utaltamira
+Noreste,Nuevo León,Universidad Tecnológica de Cadereyta,Universidad Tecnologica de Cadereyta,utcadereyta
+Sur Sureste,Campeche,Universidad Tecnológica de Campeche,Universidad Tecnologica de Campeche,utcam
+Sur Sureste,Quintana Roo,Universidad Tecnológica de Cancún,Universidad Tecnologica de Cancun,utcancun
+Sur Sureste,Campeche,Universidad Tecnológica de Candelaria,Universidad Tecnologica de Candelaria,utecan
+Sur Sureste,Quintana Roo,Universidad Tecnológica de Chetumal,Universidad Tecnologica de Chetumal,utchetumal
+Noroeste,Chihuahua,Universidad Tecnológica de Chihuahua,Universidad Tecnologica de Chihuahua,utch
+Noroeste,Chihuahua,Universidad Tecnológica de Ciudad Juárez,Universidad Tecnologica de Ciudad Juarez,utcj
+Noreste,Coahuila,Universidad Tecnológica de Coahuila,Universidad Tecnologica de Coahuila,utc
+Centro Sur,Querétaro,Universidad Tecnológica de Corregidora,Universidad Tecnologica de Corregidora,utcorregidora
+Noreste,Durango,Universidad Tecnológica de Durango,Universidad Tecnologica de Durango,utd
+Noroeste,Sonora,Universidad Tecnológica de Etchojoa,Universidad Tecnologica de Etchojoa,utetchojoa
+Sur Sureste,Veracruz,"Universidad Tecnológica de Gutiérrez Zamora, Veracruz",Universidad Tecnologica de Gutierrez Zamora,utgz
+Noroeste,Sonora,"Universidad Tecnológica de Hermosillo, Sonora",Universidad Tecnologica de Hermosillo,uthermosillo
+Centro Sur,Puebla,Universidad Tecnológica de Huejotzingo,Universidad Tecnologica de Huejotzingo,uth
+Centro Sur,Puebla,Universidad Tecnológica de Izúcar de Matamoros,Universidad Tecnologica de Izucar de Matamoros,utim
+Centro Occidente,Jalisco,Universidad Tecnológica de Jalisco,Universidad Tecnologica de Jalisco,utj
+Noroeste,Chihuahua,Universidad Tecnológica de la Babicora,Universidad Tecnologica de la Babicora,utb
+Centro Occidente,Nayarit,Universidad Tecnológica de la Costa de Nayarit,Universidad Tecnologica de la Costa de Nayarit,utdelacosta
+Centro Sur,Guerrero,Universidad Tecnológica de la Costa Grande de Guerrero,Universidad Tecnologica de la Costa Grande de Guerrero,utcgg
+Centro Sur,Hidalgo,Universidad Tecnológica de la Huasteca Hidalguense,Universidad Tecnologica de la Huasteca Hidalguense,uthh
+Noreste,Durango,Universidad Tecnológica de la Laguna,Universidad Tecnologica de la Laguna,utlaguna
+Centro Sur,Guerrero,Universidad Tecnológica de la Región Norte de Guerrero,Universidad Tecnologica de la Region Norte de Guerrero,utrng
+Sur Sureste,Quintana Roo,Universidad Tecnológica de la Riviera Maya,Universidad Tecnologica de la Riviera Maya,utrivieramaya
+Sur Sureste,Chiapas,Universidad Tecnológica de la Selva,Universidad Tecnologica de la Selva,utselva
+Centro Sur,Hidalgo,Universidad Tecnológica de la Sierra Hidalguense,Universidad Tecnologica de la Sierra Hidalguense,utsh
+Noroeste,Chihuahua,Universidad Tecnológica de la Sierra Tarahumara,Universidad Tecnologica de la Sierra Tarahumara,uttarahumara
+Centro Occidente,Jalisco,Universidad Tecnológica de la Zona Metropolitana de Guadalajara,Universidad Tecnologica de la Zona Metropolitana de Guadalajara,utzmg
+Centro Occidente,Guanajuato,Universidad Tecnológica de León,Universidad Tecnologica de Leon,utleon
+Noreste,Nuevo León,Universidad Tecnológica de Linares,Universidad Tecnologica de Linares,utl
+Sur Sureste,Oaxaca,Universidad Tecnológica de los Valles Centrales de Oaxaca,Universidad Tecnologica de los Valles Centrales de Oaxaca,utvco
+Centro Occidente,Colima,Universidad Tecnológica de Manzanillo,Universidad Tecnologica de Manzanillo,utmanzanillo
+Noreste,Tamaulipas,Universidad Tecnológica de Matamoros,Universidad Tecnologica de Matamoros,utmatamoros
+Centro Occidente,Michoacán,Universidad Tecnológica de Morelia,Universidad Tecnologica de Morelia,utmorelia
+Centro Occidente,Nayarit,Universidad Tecnológica de Nayarit,Universidad Tecnologica de Nayarit,utnay
+Centro Sur,Estado de México,Universidad Tecnológica de Nezahualcóyotl,Universidad Tecnologica de Nezahualcoyotl,utn
+Noroeste,Sonora,"Universidad Tecnológica de Nogales, Sonora",Universidad Tecnologica de Nogales,utnogales
+Noreste,Tamaulipas,Universidad Tecnológica de Nuevo Laredo,Universidad Tecnologica de Nuevo Laredo,utnuevolaredo
+Centro Sur,Puebla,Universidad Tecnológica de Oriental,Universidad Tecnologica de Oriental,uto
+Noroeste,Chihuahua,Universidad Tecnológica de Parral,Universidad Tecnologica de Parral,utparral
+Noreste,Durango,Universidad Tecnológica de Poanas,Universidad Tecnologica de Poanas,utpoanas
+Centro Sur,Puebla,Universidad Tecnológica de Puebla,Universidad Tecnologica de Puebla,utpuebla
+Noroeste,Sonora,Universidad Tecnológica de Puerto Peñasco,Universidad Tecnologica de Puerto Penasco,utpp
+Centro Sur,Querétaro,Universidad Tecnológica de Querétaro,Universidad Tecnologica de Queretaro,uteq
+Centro Occidente,Guanajuato,Universidad Tecnológica de Salamanca,Universidad Tecnologica de Salamanca,utsalamanca
+Centro Sur,Querétaro,Universidad Tecnológica de San Juan del Río,Universidad Tecnologica de San Juan del Rio,utsjr
+Noreste,San Luis Potosí,Universidad Tecnológica de San Luis Potosí,Universidad Tecnologica de San Luis Potosi,utslp
+Noroeste,Sonora,Universidad Tecnológica de San Luis Río Colorado,Universidad Tecnologica de San Luis Rio Colorado,utslrc
+Centro Occidente,Guanajuato,Universidad Tecnológica de San Miguel de Allende,Universidad Tecnologica de San Miguel de Allende,utsma
+Sur Sureste,Oaxaca,Universidad Tecnológica de Sola de Vega,Universidad Tecnologica de Sola de Vega,utsolavega
+Sur Sureste,Tabasco,Universidad Tecnológica de Tabasco,Universidad Tecnologica de Tabasco,uttab
+Noreste,Tamaulipas,Universidad Tecnológica de Tamaulipas Norte,Universidad Tecnologica de Tamaulipas Norte,uttn
+Centro Sur,Estado de México,Universidad Tecnológica de Tecámac,Universidad Tecnologica de Tecamac,uttecamac
+Centro Sur,Puebla,Universidad Tecnológica de Tecamachalco,Universidad Tecnologica de Tecamachalco,uttecam
+Centro Sur,Puebla,Universidad Tecnológica de Tehuacán,Universidad Tecnologica de Tehuacan,uttehuacan
+Noroeste,Baja California,Universidad Tecnológica de Tijuana,Universidad Tecnologica de Tijuana,uttijuana
+Centro Sur,Tlaxcala,Universidad Tecnológica de Tlaxcala,Universidad Tecnologica de Tlaxcala,uttlaxcala
+Noreste,Coahuila,Universidad Tecnológica de Torreón,Universidad Tecnologica de Torreon,utt
+Centro Sur,Hidalgo,Universidad Tecnológica de Tulancingo,Universidad Tecnologica de Tulancingo,utectgo
+Centro Sur,Hidalgo,Universidad Tecnológica de Tula-Tepeji,Universidad Tecnologica de Tula-Tepeji,uttt
+Centro Sur,Puebla,Universidad Tecnológica de Xicotepec de Juárez Puebla,Universidad Tecnologica de Xicotepec de Juarez Puebla,utxj
+Sur Sureste,Yucatán,Universidad Tecnológica del Centro,Universidad Tecnologica del Centro,utcentro
+Sur Sureste,Veracruz,Universidad Tecnológica del Centro de Veracruz,Universidad Tecnologica del Centro de Veracruz,utcv
+Noreste,Zacatecas,Universidad Tecnológica del Estado de Zacatecas,Universidad Tecnologica del Estado de Zacatecas,utzac
+Noreste,Tamaulipas,Universidad Tecnológica del Mar de Tamaulipas Bicentenario,Universidad Tecnologica del Mar de Tamaulipas Bicentenario,utmart
+Centro Occidente,Aguascalientes,Universidad Tecnológica del Norte de Aguascalientes,Universidad Tecnologica del Norte de Aguascalientes,utna
+Noreste,Coahuila,Universidad Tecnológica del Norte de Coahuila,Universidad Tecnologica del Norte de Coahuila,utnc
+Centro Occidente,Guanajuato,Universidad Tecnológica del Norte de Guanajuato,Universidad Tecnologica del Norte de Guanajuato,utng
+Noroeste,Sonora,Universidad Tecnológica del Sur de Sonora,Universidad Tecnologica del Sur de Sonora,uts
+Centro Sur,Estado de México,Universidad Tecnológica del Sur del Estado de México,Universidad Tecnologica del Sur del Estado de Mexico,utsem
+Sur Sureste,Veracruz,Universidad Tecnológica del Sureste de Veracruz,Universidad Tecnologica del Sureste de Veracruz,utsv
+Centro Occidente,Guanajuato,Universidad Tecnológica del Suroeste de Guanajuato,Universidad Tecnologica del Suroeste de Guanajuato,utsoe
+Sur Sureste,Tabasco,Universidad Tecnológica del Usumacinta,Universidad Tecnologica del Usumacinta,utusumacinta
+Centro Sur,Estado de México,Universidad Tecnológica del Valle de Toluca,Universidad Tecnologica del Valle de Toluca,utvtol
+Centro Sur,Hidalgo,Universidad Tecnológica del Valle del Mezquital,Universidad Tecnologica del Valle del Mezquital,utvm
+Centro Occidente,Aguascalientes,"Universidad Tecnológica El Retoño, Aguascalientes",Universidad Tecnologica El Retono,utr
+Centro Sur,Morelos,Universidad Tecnológica Emiliano Zapata del Estado de Morelos,Universidad Tecnologica Emiliano Zapata del Estado de Morelos,utez
+Centro Sur,Estado de México,Universidad Tecnológica Fidel Velázquez,Universidad Tecnologica Fidel Velazquez,utfv
+Noreste,Nuevo León,Universidad Tecnológica General Mariano Escobedo,Universidad Tecnologica General Mariano Escobedo,ute
+Sur Sureste,Yucatán,"Universidad Tecnológica Metropolitana, Merida",Universidad Tecnologica Metropolitana,utmetropolitana
+Noreste,Coahuila,Universidad Tecnológica Región Centro de Coahuila,Universidad Tecnologica Region Centro de Coahuila,utrcc
+Sur Sureste,Yucatán,Universidad Tecnológica Regional del Poniente,Universidad Tecnologica Regional del Poniente,utponiente
+Sur Sureste,Yucatán,"Universidad Tecnológica Regional del Sur, Yucatán",Universidad Tecnologica Regional del Sur,utregionaldelsur
+Noreste,Nuevo León,Universidad Tecnológica Santa Catarina,Universidad Tecnologica Santa Catarina,utsc
+,,Institutos Tecnológicos (Federales y Descentralizados),,
+Centro Sur,Querétaro,Centro Interdisciplinario de Investigación y Docencia en Educación Técnica,Centro Interdisciplinario de Investig y Docencia en Educacion Tecnica,ciidet
+Centro Sur,Morelos,Centro Nacional de Investigación y Desarrollo Tecnológico,Centro Nacional de Investigacion y Desarrollo Tecnologico,cenidet
+Centro Occidente,Guanajuato,CRODE Celaya,Centro Regional de Optimizacion y Desarrollo de Equipo de Celaya,crodecelaya
+Noroeste,Chihuahua,CRODE Chihuahua,Centro Regional de Optimizacion y Desarrollo de Equipo de Chihuahua,crodechihuahua
+Sur Sureste,Yucatán,CRODE Mérida,Centro Regional de Optimizacion y Desarrollo de Equipo de Merida,crodemerida
+Sur Sureste,Veracruz,CRODE Orizaba,Centro Regional de Optimizacion y Desarrollo de Equipo de Orizaba,crodeorizaba
+Centro Sur,Guerrero,Instituto Tecnológico de Acapulco,Instituto Tecnologico de Acapulco,itacapulco
+Noroeste,Sonora,Instituto Tecnológico de Agua Prieta,Instituto Tecnologico de Agua Prieta,itap
+Centro Occidente,Aguascalientes,Instituto Tecnológico de Aguascalientes,Instituto Tecnologico de Aguascalientes,ita
+Noreste,Tamaulipas,Instituto Tecnológico de Altamira,Instituto Tecnologico de Altamira,italtamira
+Centro Sur,Tlaxcala,Instituto Tecnológico de Altiplano de Tlaxcala,Instituto Tecnologico de Altiplano de Tlaxcala,italtiplanotlaxcala
+Centro Sur,Tlaxcala,Instituto Tecnológico de Apizaco,Instituto Tecnologico de Apizaco,itapizaco
+Centro Sur,Hidalgo,Instituto Tecnológico de Atitalaquia,Instituto Tecnologico de Atitalaquia,itatitalaquia
+Centro Occidente,Nayarit,Instituto Tecnológico de Bahía de Banderas,Instituto Tecnologico de Bahia de Banderas,itbahiadebanderas
+Sur Sureste,Veracruz,Instituto Tecnológico de Boca del Río,Instituto Tecnologico de Boca del Rio,itboca
+Sur Sureste,Campeche,Instituto Tecnológico de Campeche,Instituto Tecnologico de Campeche,itcampeche
+Sur Sureste,Quintana Roo,Instituto Tecnológico de Cancún,Instituto Tecnologico de Cancun,itcancun
+Centro Occidente,Guanajuato,Instituto Tecnológico de Celaya,Instituto Tecnologico de Celaya,itcelaya
+Sur Sureste,Veracruz,Instituto Tecnológico de Cerro Azul,Instituto Tecnologico de Cerro Azul,itcerroazul
+Sur Sureste,Quintana Roo,Instituto Tecnológico de Chetumal,Instituto Tecnologico de Chetumal,itchetumal
+Noroeste,Chihuahua,Instituto Tecnológico de Chihuahua,Instituto Tecnologico de Chihuahua,itch
+Noroeste,Chihuahua,Instituto Tecnológico de Chihuahua II,Instituto Tecnologico de Chihuahua II,itchihuahuaii
+Centro Sur,Guerrero,Instituto Tecnológico de Chilpancingo,Instituto Tecnologico de Chilpancingo,itchilpancingo
+Sur Sureste,Campeche,Instituto Tecnológico de Chiná,Instituto Tecnologico de China,itchina
+Centro Sur,Guerrero,Instituto Tecnológico de Ciudad Altamirano,Instituto Tecnologico de Ciudad Altamirano,itca
+Noroeste,Chihuahua,Instituto Tecnológico de Ciudad Cuauhtémoc,Instituto Tecnologico de Ciudad Cuauhtemoc,itcdcuauhtemoc
+Centro Occidente,Jalisco,Instituto Tecnológico de Ciudad Guzmán,Instituto Tecnologico de Ciudad Guzman,itcg
+Noroeste,Chihuahua,Instituto Tecnológico de Ciudad Juárez,Instituto Tecnologico de Ciudad Juarez,itcj
+Noreste,Tamaulipas,Instituto Tecnológico de Ciudad Madero,Instituto Tecnologico de Ciudad Madero,itcm
+Noreste,San Luis Potosí,Instituto Tecnológico de Ciudad Valles,Instituto Tecnologico de Ciudad Valles,tecvalles
+Noreste,Tamaulipas,Instituto Tecnológico de Ciudad Victoria,Instituto Tecnologico de Ciudad Victoria,itvictoria
+Centro Occidente,Colima,Instituto Tecnológico de Colima,Instituto Tecnologico de Colima,itcolima
+Sur Sureste,Chiapas,Instituto Tecnológico de Comitán,Instituto Tecnologico de Comitan,itcomitan
+Sur Sureste,Oaxaca,Instituto Tecnológico de Comitancillo,Instituto Tecnologico de Comitancillo,itcomitancillo
+Sur Sureste,Yucatán,Instituto Tecnológico de Conkal,Instituto Tecnologico de Conkal,itconkal
+Centro Sur,Guerrero,Instituto Tecnológico de Costa Grande,Instituto Tecnologico de Costa Grande,itcostagrande
+Noroeste,Sinaloa,Instituto Tecnológico de Culiacán,Instituto Tecnologico de Culiacan,itculiacan
+Noroeste,Chihuahua,Instituto Tecnológico de Delicias,Instituto Tecnologico de Delicias,itdelicias
+Noreste,Durango,Instituto Tecnológico de Durango,Instituto Tecnologico de Durango,itdurango
+Noreste,Durango,Instituto Tecnológico de el Salto,Instituto Tecnologico de el Salto,itelsalto
+Noroeste,Baja California,Instituto Tecnológico de Ensenada,Instituto Tecnologico de Ensenada,itensenada
+Noreste,Coahuila,Instituto Tecnológico de Estudios Superiores de La Región Carbonífera,Instituto Tecnologico de Estudios Superiores de La Region Carbonifera,itesrc
+Noroeste,Baja California Sur,Instituto Tecnológico de Estudios Superiores de Los Cabos,Instituto Tecnologico de Estudios Superiores de Los Cabos,itesloscabos
+Noroeste,Sonora,Instituto Tecnológico de Guaymas,Instituto Tecnologico de Guaymas,itg
+Metropolitana,Distrito Federal,Instituto Tecnológico de Gustavo A. Madero,Instituto Tecnologico de Gustavo A. Madero,itgustavoamadero
+Noroeste,Sonora,Instituto Tecnológico de Hermosillo,Instituto Tecnologico de Hermosillo,ith
+Noroeste,Sonora,Instituto Tecnológico de Huatabampo,Instituto Tecnologico de Huatabampo,ithua
+Centro Sur,Hidalgo,Instituto Tecnológico de Huejutla,Instituto Tecnologico de Huejutla,ithuejutla
+Sur Sureste,Oaxaca,Instituto Tecnológico de Istmo,Instituto Tecnologico de Istmo,itistmo
+Centro Occidente,Michoacán,Instituto Tecnológico de Jiquilpan,Instituto Tecnologico de Jiquilpan,itjiquilpan
+Sur Sureste,Oaxaca,Instituto Tecnológico de La Cuenca del Papaloapan,Instituto Tecnologico de La Cuenca del Papaloapan,itcuencapapaloapan
+Noreste,Coahuila,Instituto Tecnológico de la Laguna,Instituto Tecnologico de la Laguna,itlalaguna
+Noroeste,Baja California Sur,Instituto Tecnológico de la Paz,Instituto Tecnologico de la Paz,itlp
+Centro Occidente,Michoacán,Instituto Tecnológico de La Piedad,Instituto Tecnologico de La Piedad,itdelapiedad
+Sur Sureste,Oaxaca,Instituto Tecnológico de La Región Mixe,Instituto Tecnologico de La Region Mixe,itrm
+Centro Occidente,Michoacán,Instituto Tecnológico de Lázaro Cárdenas,Instituto Tecnologico de Lazaro Cardenas,itlac
+Centro Occidente,Guanajuato,Instituto Tecnológico de León,Instituto Tecnologico de Leon,itleon
+Noroeste,Sinaloa,Instituto Tecnológico de los Mochis,Instituto Tecnologico de los Mochis,itmochis
+Noreste,Tamaulipas,Instituto Tecnológico de Matamoros,Instituto Tecnologico de Matamoros,itmatamoros
+Noreste,San Luis Potosí,Instituto Tecnológico de Matehuala,Instituto Tecnologico de Matehuala,itmatehuala
+Noroeste,Sinaloa,Instituto Tecnológico de Mazatlán,Instituto Tecnologico de Mazatlan,itmazatlan
+Sur Sureste,Yucatán,Instituto Tecnológico de Mérida,Instituto Tecnologico de Merida,itmerida
+Noroeste,Baja California,Instituto Tecnológico de Mexicali,Instituto Tecnologico de Mexicali,itmexicali
+Metropolitana,Distrito Federal,Instituto Tecnológico de Milpa Alta,Instituto Tecnologico de Milpa Alta,itmilpaalta
+Sur Sureste,Veracruz,Instituto Tecnológico de Minatitlán,Instituto Tecnologico de Minatitlan,itmina
+Centro Occidente,Michoacán,Instituto Tecnológico de Morelia,Instituto Tecnologico de Morelia,itmorelia
+Noroeste,Sonora,Instituto Tecnológico de Nogales,Instituto Tecnologico de Nogales,itnogales
+Noreste,Tamaulipas,Instituto Tecnológico de Nuevo Laredo,Instituto Tecnologico de Nuevo Laredo,itnuevolaredo
+Noreste,Nuevo León,Instituto Tecnológico de Nuevo León,Instituto Tecnologico de Nuevo Leon,itnl
+Sur Sureste,Oaxaca,Instituto Tecnológico de Oaxaca,Instituto Tecnologico de Oaxaca,itoaxaca
+Centro Occidente,Jalisco,Instituto Tecnológico de Ocotlán,Instituto Tecnologico de Ocotlan,itocotlan
+Sur Sureste,Veracruz,Instituto Tecnológico de Orizaba,Instituto Tecnologico de Orizaba,itorizaba
+Centro Occidente,Aguascalientes,Instituto Tecnológico de Pabellón de Arteaga,Instituto Tecnologico de Pabellon de Arteaga,itpabellon
+Centro Sur,Hidalgo,Instituto Tecnológico de Pachuca,Instituto Tecnologico de Pachuca,itpachuca
+Noroeste,Chihuahua,Instituto Tecnológico de Parral,Instituto Tecnologico de Parral,itparral
+Noreste,Coahuila,Instituto Tecnológico de Piedras Negras,Instituto Tecnologico de Piedras Negras,itpiedrasnegras
+Sur Sureste,Oaxaca,Instituto Tecnológico de Pinotepa,Instituto Tecnologico de Pinotepa,itp
+Centro Sur,Puebla,Instituto Tecnológico de Puebla,Instituto Tecnologico de Puebla,itpuebla
+Centro Sur,Querétaro,Instituto Tecnológico de Querétaro,Instituto Tecnologico de Queretaro,itq
+Noreste,Tamaulipas,Instituto Tecnológico de Reynosa,Instituto Tecnologico de Reynosa,itreynosa
+Centro Occidente,Guanajuato,Instituto Tecnológico de Roque,Instituto Tecnologico de Roque,itroque
+Sur Sureste,Oaxaca,Instituto Tecnológico de Salina Cruz,Instituto Tecnologico de Salina Cruz,itsalinacruz
+Noreste,Coahuila,Instituto Tecnológico de Saltillo,Instituto Tecnologico de Saltillo,its
+Centro Sur,Querétaro,Instituto Tecnológico de San Juan del Río,Instituto Tecnologico de San Juan del Rio,itsanjuan
+Noreste,San Luis Potosí,Instituto Tecnológico de San Luis Potosí,Instituto Tecnologico de San Luis Potosi,itslp
+Sur Sureste,Chiapas,Instituto Tecnológico de Tapachula,Instituto Tecnologico de Tapachula,ittapachula
+Centro Sur,Puebla,Instituto Tecnológico de Tecomatlán,Instituto Tecnologico de Tecomatlan,ittecomatlan
+Centro Sur,Puebla,Instituto Tecnológico de Tehuacán,Instituto Tecnologico de Tehuacan,ittehuacan
+Centro Occidente,Nayarit,Instituto Tecnológico de Tepic,Instituto Tecnologico de Tepic,ittepic
+Noroeste,Baja California,Instituto Tecnológico de Tijuana,Instituto Tecnologico de Tijuana,tectijuana
+Sur Sureste,Yucatán,Instituto Tecnológico de Tizimín,Instituto Tecnologico de Tizimin,ittizimin
+Metropolitana,Distrito Federal,Instituto Tecnológico de Tláhuac,Instituto Tecnologico de Tlahuac,ittlahuac
+Centro Occidente,Jalisco,"Instituto Tecnológico de Tlajomulco, Jalisco",Instituto Tecnologico de Tlajomulco,ittlajomulco
+Centro Sur,Estado de México,Instituto Tecnológico de Tlalnepantla,Instituto Tecnologico de Tlalnepantla,ittla
+Sur Sureste,Oaxaca,Instituto Tecnológico de Tlaxiaco,Instituto Tecnologico de Tlaxiaco,ittlaxiaco
+Centro Sur,Estado de México,Instituto Tecnológico de Toluca,Instituto Tecnologico de Toluca,ittoluca
+Noreste,Coahuila,Instituto Tecnológico de Torreón,Instituto Tecnologico de Torreon,ittorreon
+Sur Sureste,Oaxaca,Instituto Tecnológico de Tuxtepec,Instituto Tecnologico de Tuxtepec,ittux
+Sur Sureste,Chiapas,Instituto Tecnológico de Tuxtla Gutiérrez,Instituto Tecnologico de Tuxtla Gutierrez,ittuxtlagutierrez
+Sur Sureste,Veracruz,Instituto Tecnológico de Úrsulo Galván,Instituto Tecnologico de Ursulo Galvan,itursulogalvan
+Centro Occidente,Michoacán,Instituto Tecnológico de Valle de Morelia,Instituto Tecnologico de Valle de Morelia,itvallemorelia
+Sur Sureste,Oaxaca,Instituto Tecnológico de Valle de Oaxaca,Instituto Tecnologico de Valle de Oaxaca,itvalleoaxaca
+Noreste,Durango,Instituto Tecnológico de Valle del Guadiana,Instituto Tecnologico de Valle del Guadiana,itvalledelguadiana
+Noroeste,Sonora,Instituto Tecnológico de Valle del Yaqui,Instituto Tecnologico de Valle del Yaqui,itvy
+Sur Sureste,Veracruz,Instituto Tecnológico de Veracruz,Instituto Tecnologico de Veracruz,itver
+Sur Sureste,Tabasco,Instituto Tecnológico de Villahermosa,Instituto Tecnologico de Villahermosa,itvillahermosa
+Noreste,Zacatecas,Instituto Tecnológico de Zacatecas,Instituto Tecnologico de Zacatecas,itz
+Centro Sur,Morelos,Instituto Tecnológico de Zacatepec,Instituto Tecnologico de Zacatepec,itzacatepec
+Centro Occidente,Michoacán,Instituto Tecnológico de Zitácuaro,Instituto Tecnologico de Zitacuaro,itzitacuaro
+Centro Occidente,Aguascalientes,"Instituto Tecnológico El Llano, Aguascalientes",Instituto Tecnologico El Llano Aguascalientes,itllano
+Sur Sureste,Veracruz,Instituto Tecnológico Superior de Álamo Temapache,Instituto Tecnologico Superior de Alamo Temapache,itsalamo
+Sur Sureste,Veracruz,Instituto Tecnológico Superior de Alvarado,Instituto Tecnologico Superior de Alvarado,itsav
+Centro Sur,Puebla,Instituto Tecnológico Superior de Atlixco,Instituto Tecnologico Superior de Atlixco,itsatlixco
+Noroeste,Sonora,Instituto Tecnológico Superior de Cajeme,Instituto Tecnologico Superior de Cajeme,itesca
+Sur Sureste,Campeche,Instituto Tecnológico Superior de Calkini,Instituto Tecnologico Superior de Calkini,itescam
+Noroeste,Baja California Sur,Instituto Tecnológico Superior de Ciudad Constitución,Instituto Tecnologico Superior de Ciudad Constitucion,itsciudadconstitucion
+Centro Sur,Puebla,Instituto Tecnológico Superior de Ciudad Serdán,Instituto Tecnologico Superior de Ciudad Serdan,itsciudadserdan
+Sur Sureste,Campeche,Instituto Tecnológico Superior de Champotón,Instituto Tecnologico Superior de Champoton,itescham
+Centro Occidente,Jalisco,Instituto Tecnológico Superior de Chapala,Instituto Tecnologico Superior de Chapala,itschapala
+Sur Sureste,Chiapas,Instituto Tecnológico Superior de Cintalapa,Instituto Tecnologico Superior de Cintalapa,tecdecintalapa
+Centro Occidente,Michoacán,Instituto Tecnológico Superior de Coalcomán,Instituto Tecnologico Superior de Coalcoman,itscoalcoman
+Sur Sureste,Veracruz,Instituto Tecnológico Superior de Coatzacoalcos,Instituto Tecnologico Superior de Coatzacoalcos,itesco
+Sur Sureste,Tabasco,Instituto Tecnológico Superior de Comalcalco,Instituto Tecnologico Superior de Comalcalco,itsc
+Sur Sureste,Veracruz,Instituto Tecnológico Superior de Cosamaloapan,Instituto Tecnologico Superior de Cosamaloapan,itsco
+Centro Occidente,Jalisco,Instituto Tecnológico Superior de El Grullo,Instituto Tecnologico Superior de El Grullo,itselgrullo
+Noreste,Tamaulipas,Instituto Tecnológico Superior de El Mante,Instituto Tecnologico Superior de El Mante,itsmante
+Noroeste,Sinaloa,Instituto Tecnológico Superior de Eldorado,Instituto Tecnologico Superior de Eldorado,itseldorado
+Sur Sureste,Campeche,Instituto Tecnológico Superior de Escárcega,Instituto Tecnologico Superior de Escarcega,itsescarcega
+Sur Sureste,Quintana Roo,Instituto Tecnológico Superior de Felipe Carrillo Puerto,Instituto Tecnologico Superior de Felipe Carrillo Puerto,itscarrillopuerto
+Noreste,Zacatecas,Instituto Tecnológico Superior de Fresnillo,Instituto Tecnologico Superior de Fresnillo,itsf
+Centro Occidente,Guanajuato,Instituto Tecnológico Superior de Guanajuato,Instituto Tecnologico Superior de Guanajuato,itesg
+Sur Sureste,Veracruz,Instituto Tecnológico Superior de Huatusco,Instituto Tecnologico Superior de Huatusco,itshuatusco
+Centro Sur,Puebla,Instituto Tecnológico Superior de Huauchinango,Instituto Tecnologico Superior de Huauchinango,itsh
+Centro Sur,Hidalgo,Instituto Tecnológico Superior de Huichapan,Instituto Tecnologico Superior de Huichapan,iteshu
+Centro Occidente,Guanajuato,Instituto Tecnológico Superior de Irapuato,Instituto Tecnologico Superior de Irapuato,itesi
+Noreste,Zacatecas,Instituto Tecnológico Superior de Jerez,Instituto Tecnologico Superior de Jerez,tecjerez
+Centro Sur,Guerrero,Instituto Tecnológico Superior de La Costa Chica,Instituto Tecnologico Superior de La Costa Chica,tscch
+Centro Sur,Guerrero,Instituto Tecnológico Superior de La Montaña,Instituto Tecnologico Superior de La Montana,itsmontana
+Noreste,Durango,Instituto Tecnológico Superior de La Región de los Llanos,Instituto Tecnologico Superior de La Region de los Llanos,itsrll
+Centro Occidente,Jalisco,Instituto Tecnológico Superior de Lagos de Moreno,Instituto Tecnologico Superior de Lagos de Moreno,teclagos
+Sur Sureste,Veracruz,Instituto Tecnológico Superior de Las Choapas,Instituto Tecnologico Superior de Las Choapas,itschoapas
+Noreste,Durango,Instituto Tecnológico Superior de Lerdo,Instituto Tecnologico Superior de Lerdo,itslerdo
+Centro Sur,Puebla,Instituto Tecnológico Superior de Libres,Instituto Tecnologico Superior de Libres,itslibres
+Noreste,Zacatecas,Instituto Tecnológico Superior de Loreto,Instituto Tecnologico Superior de Loreto,itsloreto
+Sur Sureste,Veracruz,Instituto Tecnológico Superior de Martínez de la Torre,Instituto Tecnologico Superior de Martinez de la Torre,tecmartinez
+Centro Occidente,Jalisco,Instituto Tecnológico Superior de Mascota,Instituto Tecnologico Superior de Mascota,itsmascota
+Sur Sureste,Veracruz,Instituto Tecnológico Superior de Misantla,Instituto Tecnologico Superior de Misantla,itsm
+Noreste,Coahuila,Instituto Tecnológico Superior de Monclova,Instituto Tecnologico Superior de Monclova,itsmva
+Noroeste,Baja California Sur,Instituto Tecnológico Superior de Mulegé,Instituto Tecnologico Superior de Mulege,itesme
+Sur Sureste,Veracruz,Instituto Tecnológico Superior de Naranjos,Instituto Tecnologico Superior de Naranjos,itsna
+Noreste,Zacatecas,Instituto Tecnológico Superior de Nochistlán,Instituto Tecnologico Superior de Nochistlan,itsn
+Noroeste,Chihuahua,Instituto Tecnológico Superior de Nuevo Casas Grandes,Instituto Tecnologico Superior de Nuevo Casas Grandes,itsncg
+Centro Sur,Hidalgo,Instituto Tecnológico Superior de Occidente del Estado de Hidalgo,Instituto Tecnologico Superior de Occidente del Estado de Hidalgo,itsoeh
+Centro Sur,Hidalgo,Instituto Tecnológico Superior de Oriente del Estado de Hidalgo,Instituto Tecnologico Superior de Oriente del Estado de Hidalgo,itesa
+Sur Sureste,Veracruz,Instituto Tecnológico Superior de Pánuco,Instituto Tecnologico Superior de Panuco,tecnologicodepanuco
+Centro Occidente,Michoacán,Instituto Tecnológico Superior de Pátzcuaro,Instituto Tecnologico Superior de Patzcuaro,itspa
+Sur Sureste,Yucatán,Instituto Tecnológico Superior de Progreso,Instituto Tecnologico Superior de Progreso,itsprogreso
+Centro Occidente,Jalisco,Instituto Tecnológico Superior de Puerto Vallarta,Instituto Tecnologico Superior de Puerto Vallarta,tecvallarta
+Noreste,San Luis Potosí,Instituto Tecnológico Superior de San Luis Potosí,Instituto Tecnologico Superior de San Luis Potosi,tecsuperiorslp
+Centro Sur,Puebla,Instituto Tecnológico Superior de San Martín Texmelucan,Instituto Tecnologico Superior de San Martin Texmelucan,itssmt
+Sur Sureste,Oaxaca,Instituto Tecnológico Superior de San Miguel El Grande,Instituto Tecnologico Superior de San Miguel El Grande,itssmg
+Noreste,Coahuila,Instituto Tecnológico Superior de San Pedro de las Colonias,Instituto Tecnologico Superior de San Pedro de las Colonias,tecsanpedro
+Noreste,Durango,Instituto Tecnológico Superior de Santiago Papasquiaro,Instituto Tecnologico Superior de Santiago Papasquiaro,itsantiago
+Centro Sur,Puebla,Instituto Tecnológico Superior de Sierra Negra de Ajalpan,Instituto Tecnologico Superior de Sierra Negra de Ajalpan,itssna
+Centro Sur,Puebla,Instituto Tecnológico Superior de Sierra Norte de Puebla,Instituto Tecnologico Superior de Sierra Norte de Puebla,itssnp
+Sur Sureste,Yucatán,Instituto Tecnológico Superior de Sur del Estado de Yucatán,Instituto Tecnologico Superior de Sur del Estado de Yucatan,itsyucatan
+Centro Occidente,Michoacán,Instituto Tecnológico Superior de Tacámbaro,Instituto Tecnologico Superior de Tacambaro,itstacambaro
+Centro Occidente,Jalisco,Instituto Tecnológico Superior de Tamazula de Gordiano,Instituto Tecnologico Superior de Tamazula de Gordiano,tectamazula
+Noreste,San Luis Potosí,Instituto Tecnológico Superior de Tamazunchale,Instituto Tecnologico Superior de Tamazunchale,tectamazunchale
+Sur Sureste,Veracruz,Instituto Tecnológico Superior de Tantoyuca,Instituto Tecnologico Superior de Tantoyuca,itsta
+Centro Sur,Puebla,Instituto Tecnológico Superior de Tepeacá,Instituto Tecnologico Superior de Tepeaca,itstepeaca
+Sur Sureste,Oaxaca,Instituto Tecnológico Superior de Teposcolula,Instituto Tecnologico Superior de Teposcolula,itsteposcolula
+Centro Sur,Puebla,Instituto Tecnológico Superior de Teziutlán,Instituto Tecnologico Superior de Teziutlan,itsteziutlan
+Sur Sureste,Veracruz,Instituto Tecnológico Superior de Tierra Blanca,Instituto Tecnologico Superior de Tierra Blanca,itstb
+Centro Sur,Tlaxcala,Instituto Tecnológico Superior de Tlaxco,Instituto Tecnologico Superior de Tlaxco,itstlaxco
+Centro Occidente,Michoacán,Instituto Tecnológico Superior de Uruapan,Instituto Tecnologico Superior de Uruapan,tecuruapan
+Sur Sureste,Yucatán,Instituto Tecnológico Superior de Valladolid,Instituto Tecnologico Superior de Valladolid,itsva
+Centro Sur,Puebla,Instituto Tecnológico Superior de Venustiano Carranza,Instituto Tecnologico Superior de Venustiano Carranza,itsvc
+Sur Sureste,Veracruz,Instituto Tecnológico Superior de Xalapa,Instituto Tecnologico Superior de Xalapa,itsx
+Centro Sur,Puebla,Instituto Tecnológico Superior de Zacapoaxtla,Instituto Tecnologico Superior de Zacapoaxtla,itsz
+Centro Occidente,Jalisco,Instituto Tecnológico Superior de Zapopan,Instituto Tecnologico Superior de Zapopan,itszapopan
+Centro Occidente,Jalisco,Instituto Tecnológico Superior de Zapotlanejo,Instituto Tecnologico Superior de Zapotlanejo,itszapotlanejo
+Sur Sureste,Veracruz,Instituto Tecnológico Superior de Zongolica,Instituto Tecnologico Superior de Zongolica,itszongolica
+Centro Occidente,Guanajuato,Instituto Tecnológico Superior del Sur de Guanajuato,Instituto Tecnologico Superior del Sur de Guanajuato,itsur
+Centro Sur,Estado de México,Tecnológico de Estudios Superiores de Chalco,Tecnologico de Estudios Superiores de Chalco,tesch
+Centro Sur,Estado de México,Tecnológico de Estudios Superiores de Chimalhuacán,Tecnologico de Estudios Superiores de Chimalhuacan,teschi
+Centro Sur,Estado de México,Tecnológico de Estudios Superiores de Coacalco,Tecnologico de Estudios Superiores de Coacalco,tesco
+Centro Sur,Estado de México,Tecnológico de Estudios Superiores de Cuautitlán Izcalli,Tecnologico de Estudios Superiores de Cuautitlan Izcalli,tesci
+Centro Sur,Estado de México,Tecnológico de Estudios Superiores de Ecatepec,Tecnologico de Estudios Superiores de Ecatepec,tese
+Centro Sur,Estado de México,Tecnológico de Estudios Superiores de Huixquilucan,Tecnologico de Estudios Superiores de Huixquilucan,teshuixquilucan
+Centro Sur,Estado de México,Tecnológico de Estudios Superiores de Ixtapaluca,Tecnologico de Estudios Superiores de Ixtapaluca,tesixtapaluca
+Centro Sur,Estado de México,Tecnológico de Estudios Superiores de Jilotepec,Tecnologico de Estudios Superiores de Jilotepec,tesjilotepec
+Centro Sur,Estado de México,Tecnológico de Estudios Superiores de Jocotitlán,Tecnologico de Estudios Superiores de Jocotitlan,tesjocotitlan
+Centro Sur,Estado de México,Tecnológico de Estudios Superiores de San Felipe del Progreso,Tecnologico de Estudios Superiores de San Felipe del Progreso,tessfp
+Centro Sur,Estado de México,Tecnológico de Estudios Superiores de Tianguistenco,Tecnologico de Estudios Superiores de Tianguistenco,testianguistenco
+,,Instituciones Particulares de Educación Superior,,
+Metropolitana,Distrito Federal,"Centro de Diseño, Cine y Televisión","Centro de Diseno, Cine y Television",centro
+Metropolitana,Distrito Federal,Fundación Médica Sur,Fundacion Medica Sur,fundacionmedicasur
+Metropolitana,Distrito Federal,Instituto Tecnológico Autónomo de México,Instituto Tecnologico Autonomo de Mexico,itam
+Metropolitana,Distrito Federal,La Casa de la Universidad de California en México A.C.,"La Casa de la Universidad de California en Mexico, A.C",casaunicaliforniamx
+Centro Occidente,Aguascalientes,ITESM Campus Aguascalientes,ITESM Campus Aguascalientes,teccampusags
+Sur Sureste,Chiapas,ITESM Campus Chiapas,ITESM Campus Chiapas,teccampuschs
+Noroeste,Chihuahua,ITESM Campus Chihuahua,ITESM Campus Chihuahua,teccampuschi
+Metropolitana,Distrito Federal,ITESM Campus Ciudad de México,ITESM Campus Ciudad de Mexico,teccampuscdm
+Noroeste,Chihuahua,ITESM Campus Ciudad Juárez,ITESM Campus Ciudad Juarez,teccampuscdj
+Noroeste,Sonora,ITESM Campus Ciudad Obregón,ITESM Campus Ciudad Obregon,teccampuscdo
+Centro Sur,Morelos,ITESM Campus Cuernavaca,ITESM Campus Cuernavaca,teccampuscva
+Centro Sur,Estado de México,ITESM Campus Estado de México,ITESM Campus Estado de Mexico,teccampusedm
+Centro Occidente,Jalisco,ITESM Campus Guadalajara,ITESM Campus Guadalajara,teccampusgda
+Centro Sur,Hidalgo,ITESM Campus Hidalgo,ITESM Campus Hidalgo,teccampushgo
+Centro Occidente,Guanajuato,ITESM Campus Irapuato,ITESM Campus Irapuato,teccampusira
+Noreste,Coahuila,ITESM Campus Laguna,ITESM Campus Laguna,teccampuslag
+Centro Occidente,Guanajuato,ITESM Campus León,ITESM Campus Leon,teccampusleo
+Noreste,Nuevo León,ITESM Campus Monterrey,ITESM Campus Monterrey,teccampusmty
+Centro Occidente,Michoacán,ITESM Campus Morelia,ITESM Campus Morelia,teccampusmrl
+Noreste,Nuevo León,ITESM Programas en Línea,ITESM Programas en Linea,tecprogralinea
+Centro Sur,Puebla,ITESM Campus Puebla,ITESM Campus Puebla,teccampuspue
+Centro Sur,Querétaro,ITESM Campus Querétaro,ITESM Campus Queretaro,teccampusqro
+Noreste,Coahuila,ITESM Campus Saltillo,ITESM Campus Saltillo,teccampussal
+Noreste,San Luis Potosí,ITESM Campus San Luis Potosí,ITESM Campus San Luis Potosi,teccampusslp
+Metropolitana,Distrito Federal,ITESM Campus Santa Fe,ITESM Campus Santa Fe,teccampusstf
+Noroeste,Sinaloa,ITESM Campus Sinaloa,ITESM Campus Sinaloa,teccampussin
+Noroeste,Sonora,ITESM Campus Sonora Norte,ITESM Campus Sonora Norte,teccampusher
+Noreste,Tamaulipas,ITESM Campus Tampico,ITESM Campus Tampico,teccampustam
+Centro Sur,Estado de México,ITESM Campus Toluca,ITESM Campus Toluca,teccampustol
+Sur Sureste,Veracruz,ITESM Campus Veracruz,ITESM Campus Veracruz,teccampuscdv
+Noreste,Zacatecas,ITESM Campus Zacatecas,ITESM Campus Zacatecas,teccampuszac
+Noreste,Nuevo León,ITESM Preparatoria Cumbres,ITESM Preparatoria Cumbres,tecprepacumbres
+Noreste,Nuevo León,ITESM Preparatoria Eugenio Garza Lagüera,ITESM Preparatoria Eugenio Garza Laguera,tecprepalaguera
+Noreste,Nuevo León,ITESM Preparatoria Eugenio Garza Sada,ITESM Preparatoria Eugenio Garza Sada,tecprepasada
+Noreste,Nuevo León,ITESM Preparatoria Santa Catarina,ITESM Preparatoria Santa Catarina,tecprepacatarina
+Noreste,Nuevo León,ITESM Preparatoria Valle Alto,ITESM Preparatoria Valle Alto,tecprepavalto
+Metropolitana,Distrito Federal,Texas A&M University Center México,Texas A&M University Center Mexico,tamucm
+Sur Sureste,Veracruz,Universidad Anáhuac,Universidad Anahuac,anahuac
+Centro Occidente,Jalisco,Universidad Autónoma de Guadalajara,Universidad Autonoma de Guadalajara,uag
+Noreste,Coahuila,Universidad Autónoma de La Laguna,Universidad Autonoma de La Laguna,ual
+Centro Sur,Puebla,Universidad de las Américas Puebla,Universidad de las Americas Puebla,udlap
+Metropolitana,Distrito Federal,Universidad del Valle de México,Universidad del Valle de Mexico,uvm
+Metropolitana,Distrito Federal,Universidad Iberoamericana,Universidad Iberoamericana,uia
+Metropolitana,Distrito Federal,Universidad La Salle,Universidad La Salle,lasalle
+Metropolitana,Distrito Federal,Universidad Latina,Universidad Latina,unila
+Noreste,Nuevo León,Universidad Montemorelos,Universidad Montemorelos,um
+Metropolitana,Distrito Federal,Universidad Panamericana,Universidad Panamericana,up
+Centro Sur,Puebla,Universidad Popular Autónoma del Estado de Puebla,Universidad Popular Autonoma del Estado de Puebla,upaep
+Noreste,Nuevo León,Universidad Regiomontana,Universidad Regiomontana,ur
+Metropolitana,Distrito Federal,Universidad Tecnológica de México,Universidad Tecnologica de Mexico,unitec
+,,Instituciones Gubernamentales,,
+Metropolitana,Distrito Federal,Cámara de Diputados,Camara de Diputados,diputados
+Metropolitana,Distrito Federal,Comisión Nacional para el Conocimiento y Uso de la Biodiversidad,Comision Nacional para el Conocimiento y Uso de la Biodiversidad,conabio
+Noreste,Nuevo León,Comité Regional Norte de Cooperación con la UNESCO,Comite Regional Norte de Cooperacion con la UNESCO,unescocrn
+Metropolitana,Distrito Federal,Consejo Nacional para la Cultura y las Artes,Consejo Nacional para la Cultura y las Artes,conaculta
+Metropolitana,Distrito Federal,Instituto de Ciencia y Tecnología del Distrito Federal,Instituto de Ciencia y Tecnologia del Distrito Federal,icytdf
+Metropolitana,Distrito Federal,Instituto Latinoamericano de la Comunicación Educativa,Instituto Latinoamericano de la Comunicacion Educativa,ilce
+Metropolitana,Distrito Federal,Instituto Nacional de Antropología e Historia,Instituto Nacional de Antropologia e Historia,inah
+Centro Occidente,Aguascalientes,"Instituto Nacional de Estadística, Geografía e Informática","Instituto Nacional de Estadistica, Geografia e Informatica",inegi
+Metropolitana,Distrito Federal,Instituto Nacional para la Evaluación de la Educación,Instituto Nacional para la Evaluacion de la Educacion,inee
+Metropolitana,Distrito Federal,Secretaría de la Defensa Nacional,Secretaria de la Defensa Nacional,sedena
+Metropolitana,Distrito Federal,Senado de la República,Senado de la Republica,senado
+,,Otras Instituciones,,
+Noroeste,Sinaloa,Centro de Innovación y Educación (Sinaloa),Centro de Innovacion y Educacion,cie
+Centro Sur,Morelos,Centro de Investigación y Docencia en Humanidades del Estado de Morelos,Centro de Investig y Docencia en Humanidades del Estado de Morelos,cidhem
+Centro Sur,Estado de México,Centro Internacional de Mejoramiento de Maíz y Trigo,Centro Internacional de Mejoramiento de Maiz y Trigo,cimmyt
+Centro Sur,Estado de México,Colegio de Estudios Científicos y Tecnológicos del Estado de México,Colegio de Estudios Cientificos y Tecnologicos del Estado de Mexico,cecytem
+Noroeste,Sonora,Colegio de Sonora,Colegio de Sonora,colson
+Metropolitana,Distrito Federal,Colegio Nacional,Colegio Nacional,colegionacional
+Centro Occidente,Jalisco,El Colegio de Jalisco,El Colegio de Jalisco,coljal
+Sur Sureste,Veracruz,Instituto Consorcio Clavijero,Instituto Consorcio Clavijero,clavijero
+Centro Occidente,Jalisco,Instituto Jalisciense de Tecnologías de la Información,Instituto Jalisciense de Tecnologias de la Informacion,ijalti
+Sur Sureste,Veracruz,Laboratorio Nacional de Informática Avanzada,Laboratorio Nacional de Informatica Avanzada,lania
+,,Consejo Nacional de Ciencia y Tecnología (CONACYT),,
+Distrito Federal,Fondo CONACYT,Fondo CONACYT,fcconacyt,
