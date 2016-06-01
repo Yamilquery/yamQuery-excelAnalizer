@@ -7,9 +7,6 @@ Permite analizar y procesar grandes volumentes de información de archivos xls, 
   - Obtener datos de columnas y celdas especificando criterios o condiciones
   - Aplicar filtros a los datos obtenidos y almacenar el resultado en un objeto
 
-### Versión
-1.0.4
-
 ### Requerimientos
 
 YamilQuery-ExcelAnalizer requiere:
@@ -21,7 +18,7 @@ YamilQuery-ExcelAnalizer requiere:
 YamilQuery-ExcelAnalizer requiere [Node.js](https://nodejs.org/) v4+ para ejecutarse correctamente.
 
 ```sh
-$ npm install yamQuery-excelAnalizer --save
+$ npm install yamquery-excelanalizer --save
 ```
 
 ### Uso
@@ -37,34 +34,34 @@ A continuación un ejemplo con la estructura requerida:
 	"sheet_name": "usageReport (14)",
 	"conditions": [{
 		"column": 0,
-		"alias": "institucion",
+		"alias": "information",
 		"where": {
 			"contains": "Account "
 		}
 	}],
 	"results": [{
-		"alias": "id_institution",
+		"alias": "id_information",
 		"column": 0,
 		"regex": "\\d+"
 	}, {
-		"alias": "institution",
+		"alias": "information",
 		"column": 0
 	}, {
 		"alias": "jan-2016",
 		"column": 10,
-		"relative": 2
+		"relative_y": 2
 	}, {
 		"alias": "feb-2016",
 		"column": 11,
-		"relative": 2
+		"relative_y": 2
 	}, {
 		"alias": "mar-2016",
 		"column": 12,
-		"relative": 2
+		"relative_y": 2
 	}, {
 		"alias": "abr-2016",
 		"column": 13,
-		"relative": 2
+		"relative_y": 2
 	}]
 }
 ```
@@ -86,14 +83,14 @@ Las opciones del archivo de configuración son:
   - __column_range__: Objecto con dos valores de rango de columnas (Se sumarán para el resultado)
   - __cell__: Especifica una fila y columna en particular
   - __alias__: Otorga un alias al resultado, mismo que será devuelto al final
-  - __relative__: Cuando el valor que requieres no se encuentra en la fila actual puedes incrementar o disminuir el indice de la fila de donde obtendrá el valor
+  - __relative_y__: Cuando el valor que requieres no se encuentra en la fila actual puedes incrementar o disminuir el indice de la fila de donde obtendrá el valor
 
 Nota: Al menos una de las opciones file o directory deberán especificarse en el archivo de configuración
 ##### Obtener resultados
 Invocamos al analizador para obtener los resultados.
 ###### example.js
 ```sh
-analizer = require('yamQuery-excelAnalizer')
+analizer = require('yamquery-excelanalizer')
 var configAnalizer = JSON.parse(fs.readFileSync('./config/example.json', 'utf8'))
 analizer.getResults(configAnalizer).then(function(data){
 	console.log(data) // Your result is ready!
@@ -105,7 +102,7 @@ Gracias a Promises (https://www.promisejs.org/) podemos utilizar yield de la sig
 ###### example.js
 ```sh
 co = require('co')
-analizer = require('yamQuery-excelAnalizer')
+analizer = require('yamquery-excelanalizer')
 co(function*(){
 	var configAnalizer = JSON.parse(fs.readFileSync('./config/example.json', 'utf8'))
 	var data = yield analizer.getResults(configAnalizer)
@@ -116,6 +113,3 @@ co(function*(){
 
 ### Test
 Run ```npm test ```
-
-MIT License.
-
