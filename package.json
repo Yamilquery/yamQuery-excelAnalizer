@@ -1,6 +1,6 @@
 {
   "name": "yamquery-excelanalizer",
-  "version": "1.1.2",
+  "version": "1.1.5",
   "description": "Permite analizar y procesar grandes volumentes de información de archivos xls, xlsx y csv, mediante archivos de configuración JSON",
   "main": "index.js",
   "scripts": {

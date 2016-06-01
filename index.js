@@ -4,30 +4,7 @@ var co = require('co')
 
 var ExcelAnalizer = function(){
 	this.excel = new Excel()
-	var resourceConfig = {
-		//'file':'test/ejemplo.xlsx', // xsl, xslx or csv
-		'directory':null,
-		'resource_name':'',
-		'sheet_name':'Sheet1',
-		'conditions':[
-			{
-				'column':0,
-				//'cell':[1,1], // Optional (cell or column),
-				'alias':'column1',
-				'where':{notEquals:''},
-			}
-		],
-		'results':[
-			{
-				'alias':'total', // Asigna un alias a la celda
-				//'cell':[1,1], // Toma el valor de la fila 1 con columna 1 (en el valor de row si el valor es negativo o positivo(-3 o +5) quiere decir que relativamente),
-				//'column':6, // Toma el valor de la columna 6,
-				'column_range':[4,16], // Suma el valor de la columna 4 a la 16 de la celda actual,
-				//'columns':[4,5,7,10], // Suma el valor de las columnas 4,5,7 y 10 de la celda actual,
-				'transform':'exampleMethodTransform()' // De el arreglo de valores obtenidos se le aplica una transformación
-			}
-		]
-	}
+	var resourceConfig = {}
 
 	this.getResourceConfig = function(){
 		return resourceConfig
@@ -51,7 +28,7 @@ ExcelAnalizer.prototype.getResults = co.wrap(function*(resourceConfig){
 		return Promise.resolve(result)
 	} else if(resourceConfig['file']){
 		var resourceFile = yield self.excel.readFile(self.getResourceConfig().file)
-		result.push( getResultResource.call(self,resourceFile) ) // TODO: No funciona
+		result = getResultResource.call(self,resourceFile)
 
 		return Promise.resolve(result)
 	} else {
@@ -61,15 +38,20 @@ ExcelAnalizer.prototype.getResults = co.wrap(function*(resourceConfig){
 
 var getResultResource = function(resourceFile){
 	var self = this
-	var result = []
+	var resourceConfig = self.getResourceConfig()
+	var result = {
+		resource_name:resourceConfig['resource_name'],
+		data:[]
+	}
 	resourceFile.some(function(sheet){
-		if(sheet['name']==self.getResourceConfig().sheet_name){
+		if(sheet['name']==resourceConfig['sheet_name']){
 			var indexRow = 0
 			sheet['data'].some(function(row){
 				var isValid = isValidRow.call(self,sheet,indexRow)
 				if(isValid){
 					var resultRow = getResultRow.call(self,sheet,indexRow)
-					result.push(resultRow)
+					resultRow = getTransformedRow.call(self,resultRow)
+					result['data'].push(resultRow)
 				}
 				indexRow++
 			})
@@ -86,6 +68,26 @@ var getResultRow = function(sheet,indexRow){
 		var alias = result['alias']
 		resultRow[alias] = getResultCell(sheet,indexRow,result)
 	})
+	return resultRow
+}
+
+var getTransformedRow = function(resultRow){
+	var self = this
+	var transformedRow = {}
+	var resourceConfig = self.getResourceConfig()
+	if(resourceConfig['dataQuality']){
+		resourceConfig['dataQuality'].some(function(dataQuality){
+			var cellValue = resultRow[dataQuality['alias']]
+			if(dataQuality['sumResults']){
+				cellValue = 0
+				dataQuality['sumResults'].some(function(sumResult){
+					cellValue += resultRow[sumResult]
+				})
+			}
+			transformedRow[dataQuality['alias']] = cellValue
+		})
+		return transformedRow
+	}
 	return resultRow
 }
 
@@ -148,8 +150,8 @@ var isValidCell = function(where,cellValue){
 }
 
 var applyRegex = function(value,regex){
-	var re = new RegExp(regex, "gi");
-	return (value.match(re)) ? value.match(re)[0] : value
+	var re = new RegExp(regex, "i")
+	return (value.match(re)) ? value.match(re)[1] : value
 }
 
 module.exports = new ExcelAnalizer();
