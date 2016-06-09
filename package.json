@@ -1,6 +1,6 @@
 {
   "name": "yamquery-excelanalizer",
-  "version": "1.1.5",
+  "version": "1.3.1",
   "description": "Permite analizar y procesar grandes volumentes de información de archivos xls, xlsx y csv, mediante archivos de configuración JSON",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,8 @@
   "author": "Yamil Díaz Aguirre <yamilquery@gmail.com> (http://yamil.ml)",
   "license": "MIT",
   "dependencies": {
-    "yamQuery-excel": "^1.0.3"
+    "alasql": "^0.2.7",
+    "yamQuery-excel": "^1.0.7"
   },
   "devDependencies": {
     "chai": "^3.5.0",
