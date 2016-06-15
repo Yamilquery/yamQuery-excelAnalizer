@@ -44,6 +44,7 @@ var getResultResource = function(resourceFile){
 	var result = {
 		resource_name:resourceConfig['resource_name'],
 		resource_type:resourceConfig['resource_type'],
+		resource_id:resourceConfig['resource_id'],
 		data:[]
 	}
 	var result_ajust = []
@@ -67,15 +68,6 @@ var getResultResource = function(resourceFile){
 		i++
 	})
 
-	if(result_ajust.length>2){
-		var sql = 'SELECT * FROM ? arr1 JOIN ? arr2 USING institucion'
-		for(var i in result_ajust){
-			if(i==0) var res = alasql(sql, [result_ajust[0], result_ajust[1]])
-			if(i>1) res = alasql(sql, [res, result_ajust[i]])
-		}
-		result['data'] = res
-	}
- 
 	return result
 }
 
@@ -152,7 +144,7 @@ var getResultCell = function(sheet,indexRow,result){
 		}
 	} else {
 		if(result['cell']) cellValue = sheet['data'][result['cell'][0]][result['cell'][1]+relativeX]
-		if(result['column'] || result['column']==0) cellValue = row[result['column']+relativeX] 
+		if(result['column'] || result['column']==0) cellValue = row[result['column']+relativeX]
 		if(result['column_range']){
 			cellValue = 0
 			for(var i=result['column_range'][0]; i<result['column_range'][1]; i++){
@@ -234,7 +226,7 @@ var equals = function(value, cellValue){
 			return false
 		}
 	} else {
-		if(!(cellValue == value)) return false 
+		if(!(cellValue == value)) return false
 	}
 }
 
