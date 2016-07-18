@@ -40,6 +40,7 @@ ExcelAnalizer.prototype.getResults = co.wrap(function*(resourceConfig){
 
 var getResultResource = function(resourceFile){
 	var self = this
+	var fileName = resourceFile[0]['fileName']
 	var resourceConfig = self.getResourceConfig()
 	var result = {
 		resource_name:resourceConfig['resource_name'],
@@ -53,17 +54,24 @@ var getResultResource = function(resourceFile){
 		if((!resourceConfig['sheet_name']) || (sheet['name']==resourceConfig['sheet_name'])){
 			var indexRow = 0
 			result_ajust[i] = []
-			sheet['data'].some(function(row){
-				var isValid = isValidRow.call(self,sheet,indexRow)
-				if(isValid){
-					var resultRow = getResultRow.call(self,sheet,indexRow)
-					resultRow = getTransformedRow.call(self,resultRow)
-					result['data'].push(resultRow)
-					result_ajust[i].push(resultRow)
-				}
-				indexRow++
-			})
+			if(sheet['data'])
+				sheet['data'].some(function(row){
+					var isValid = isValidRow.call(self,sheet,indexRow)
+					if(isValid){
+						var resultRow = getResultRow.call(self,sheet,indexRow,fileName)
+						resultRow = getTransformedRow.call(self,resultRow)
+						result['data'].push(resultRow)
+						result_ajust[i].push(resultRow)
+					}
+					indexRow++
+				})
 			result['data'] = adjustResult.call(self,result['data'])
+
+			// TODO: Pass to func addNamesToNullNodes
+			var first_attr = result['data'][0][Object.keys(result['data'][0])[0]]
+			if(!first_attr){
+				result['data'][0][Object.keys(result['data'][0])[0]] = sheet['fileName']
+			}
 		}
 		i++
 	})
@@ -94,14 +102,14 @@ var adjustResult = function(resultData){
 	}
 }
 
-var getResultRow = function(sheet,indexRow){
+var getResultRow = function(sheet,indexRow,fileName){
 	var self = this
 	var resultRow = {}
 	var resourceConfig = self.getResourceConfig()
 	resourceConfig['results'].some(function(result){
 		if(!result['sheet_name'] || sheet['name']==result['sheet_name']){
 			var alias = result['alias']
-			resultRow[alias] = getResultCell(sheet,indexRow,result)
+			resultRow[alias] = getResultCell.call(self,sheet,indexRow,result,fileName)
 		}
 	})
 	return resultRow
@@ -127,13 +135,16 @@ var getTransformedRow = function(resultRow){
 	return resultRow
 }
 
-var getResultCell = function(sheet,indexRow,result){
+var getResultCell = function(sheet,indexRow,result,fileName){
+	var self = this
+	var resourceConfig = self.getResourceConfig()
 	var cellValue = null
 	var relativeX = (result['relative_x'] || result['relative_x']>0) ? result['relative_x'] : 0
 	var relativeY = (result['relative_y'] || result['relative_y']>0) ? result['relative_y'] : 0
 	var row = (relativeY || relativeY>0) ? sheet['data'][indexRow+relativeY] : sheet['data'][indexRow]
-
-	if((result['bottomSearch']) && (result['where'])){
+	if(result['fileName']){
+		cellValue = fileName
+	} else if((result['bottomSearch']) && (result['where'])){
 		var MAX_ROW_SEARCH = 20
 		for(var i=indexRow; i<indexRow+(MAX_ROW_SEARCH); i++ ){
 			if( isValidCell(result['where'],sheet['data'][i][result['column']]) ){
@@ -141,6 +152,12 @@ var getResultCell = function(sheet,indexRow,result){
 				cellValue = sheet['data'][i][indexColumn]
 				i=indexRow+(MAX_ROW_SEARCH)
 			}
+		}
+	} else if((result['columnSearch']) && (result['where'])){
+		var MAX_COLUMN_SEARCH = 40
+		for(var i=0; i<MAX_COLUMN_SEARCH; i++ ){
+			if( ( isValidCell(result['where'],sheet['data'][indexRow][i]) ) )
+				cellValue = row[i]
 		}
 	} else {
 		if(result['cell']) cellValue = sheet['data'][result['cell'][0]][result['cell'][1]+relativeX]
@@ -154,8 +171,21 @@ var getResultCell = function(sheet,indexRow,result){
 	}
 
 	if(result['regex']) cellValue = applyRegex(cellValue,result['regex'])
-	if (typeof cellValue == "string") cellValue = cellValue.trim().replace(/(\r\n|\n|\r|\t)/gm,"")
+
+	var isnum = /^\d+$/.test(cellValue)
+	if(!isnum) cellValue = cellValue.trim()
+
+	if (typeof cellValue == "string") cellValue = cellValue.replace(/(\r\n|\n|\r|\t)/gm,"")
+	if(cellValue) cellValue = cleanString(cellValue)
 	return cellValue
+}
+
+var cleanString = function(string){
+	var re = new RegExp("[^\\w\\s]","g")
+	if(string.match(re)) string = string.replace(re, '')
+	var isnum = /^\d+$/.test(string);
+	if(isnum) string = parseFloat(string)
+	return string
 }
 
 var isValidRow = function(sheet,indexRow){
@@ -178,6 +208,11 @@ var isValidRow = function(sheet,indexRow){
 }
 
 var getMonthFromExcel = function(excelDate) {
+	var re = new RegExp("(\\d{4}\\-\\d{2}\\-\\d{2})","i")
+	if(excelDate.match(re)){
+		var month = excelDate.split('-')[1]
+		return parseFloat(month-1)
+	}
 	return getJsDateFromExcel(excelDate).getMonth()
 }
 
@@ -212,36 +247,45 @@ var notEquals = function(value, cellValue){
 	} else {
 		if(!(cellValue != value)) return false
 	}
+	return true
 }
 
 var equals = function(value, cellValue){
 	if(typeof value == 'object'){
+
+		var isnum = /^\d+$/.test(cellValue)
+		if(!isnum) cellValue = cellValue.trim()
+
 		var values = value
 		var noIncumple = false
 		for(var i in values){
 			var value = values[i]
-			if(cellValue == value) noIncumple = true
+			if(cellValue == value.trim()) noIncumple = true
 		}
 		if(!noIncumple){
 			return false
 		}
 	} else {
-		if(!(cellValue == value)) return false
+		if(!(cellValue == value.trim())) return false
 	}
+	return true
 }
 
 var contains = function(value, cellValue){
 	if((cellValue.toString().indexOf( value.toString() ))==-1) return false
+	return true
 }
 
 var isNumber = function(cellValue){
 	if(!(!isNaN(cellValue))) return false
+	return true
 }
 
 var applyRegex = function(value,regex){
 	var re = (typeof regex=="object") ? new RegExp(regex[0], regex[1]) : new RegExp(regex, "g")
 	var index = (typeof regex=="object" && regex[2] && regex[2]>0) ? regex[2] : 0
 	return (value.match(re) && value.match(re)[index]) ? value.match(re)[index] : null
+	return true
 }
 
 module.exports = new ExcelAnalizer();
