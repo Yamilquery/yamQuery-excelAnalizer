@@ -173,7 +173,7 @@ var getResultCell = function(sheet,indexRow,result,fileName){
 	if(result['regex']) cellValue = applyRegex(cellValue,result['regex'])
 
 	var isnum = /^\d+$/.test(cellValue)
-	if(!isnum) cellValue = cellValue.trim()
+	if(cellValue && !isnum) cellValue = cellValue.trim()
 
 	if (typeof cellValue == "string") cellValue = cellValue.replace(/(\r\n|\n|\r|\t)/gm,"")
 	if(cellValue) cellValue = cleanString(cellValue)
